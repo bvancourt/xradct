@@ -43,8 +43,3 @@ def mask_dilate(mask, radius):
     y_kern, x_kern, z_kern = np.meshgrid(np.arange(-radius, radius+1), np.arange(-radius, radius+1), np.arange(-radius, radius+1))
     kern = (x_kern**2 + y_kern**2 + z_kern**2) < radius**2
     return sig.convolve(mask*1, kern, mode='same') > 0
-
-
-if __name__ == '__main__':
-    # Maybe this should run tests?
-    print('You\'re really supposed to import this file, not run it.')
