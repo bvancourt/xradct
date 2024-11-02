@@ -1044,5 +1044,3 @@ def make_head_seg_figures(scan):
                         fig_save_base_path=r'S:\RADONC\Karam_Lab\AutoContour\Paper\Figures\HeadSegmentationFigures',
                         show_plots=True)
 
-if __name__ == "__main__":
-    test_of_segment_head()

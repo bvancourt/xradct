@@ -727,5 +727,3 @@ class FiveMouseScan(XRadCT):
         xradct_scan = xradct.XRadCT.from_dicom_files(path)
         split_scans = FiveMouseScan.to_single_mice(xradct_scan)
 
-    #test_three_mouse("S:\RADONC\Karam_Lab\Brooke\Core Work & Data\Karam Lab\Ben\Exported single mouse scans June-Aug 2022\P029 Scans\\6-25-22\C8[0, 3, 4]")
-    #test_five_mouse("S:\RADONC\Karam_Lab\Brooke\Core Work & Data\Karam Lab\Ben\Exported single mouse scans June-Aug 2022\P029 Scans\\6-24-22\K")
